@@ -10,7 +10,7 @@ export const getPriceLiqui = async (args, msg) => {
       .setColor(0x0099ff)
       .setTitle("Dolar contado con liqui")
       .setURL("https://discord.js.org/")
-      .setDescription("Cotizacion del dolar MEP")
+      .setDescription("Cotizacion del dolar contado con liqui")
       .addFields(
         { name: "Venta", value: `${response.venta}`, inline: true },
         { name: "Compra", value: `${response.compra}`, inline: true }
